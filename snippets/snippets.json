@@ -1,0 +1,306 @@
+{
+  "NgBootstrap Accordion": {
+    "prefix": "ngb-accordion",
+    "body": [
+      "<ngb-accordion #acc=\"ngbAccordion\" activeIds=\"ngb-panel-0\">",
+      "\t<ngb-panel title=\"${1:Title1}\">",
+      "\t\t<template ngbPanelContent>",
+      "\t\t\t${2:Content1}",
+      "\t\t</template>",
+      "\t</ngb-panel>",
+      "\t<ngb-panel title=\"${3:Title2}\">",
+      "\t\t<template ngbPanelContent>",
+      "\t\t\t${4:Content2}\n\t\t</template>",
+      "\t</ngb-panel>",
+      "</ngb-accordion>$5"
+    ],
+    "description": "NgBootstrap Accordion"
+  },
+  "NgBootstrap Alert": {
+    "prefix": "ngb-alert",
+    "body": [
+      "<ngb-alert type=\"${1:success|info|warning|danger}\" [dismissible]=\"${2:true}\">${3:Alert}</ngb-alert>$4"
+    ],
+    "description": "NgBootstrap Alert"
+  },
+  "NgBootstrap Button": {
+    "prefix": "ngb-btn",
+    "body": [
+      "<button type=\"button\" class=\"btn btn-${1:default|primary|success|info|warning|danger}\" (click)=\"${2:onClick}(${3:$event})\">\n\t${4:Button}\n</button>$5"
+    ],
+    "description": "NgBootstrap Button"
+  },
+  "NgBootstrap Button Outline": {
+    "prefix": "ngb-btn-outline",
+    "body": [
+      "<button type=\"button\" class=\"btn btn-outline-${1:default|primary|success|info|warning|danger}\" (click)=\"${2:onClick}(${3:$event})\">\n\t${4:Button}\n</button>$5"
+    ],
+    "description": "NgBootstrap Button Outline"
+  },
+  "NgBootstrap Radio buttons group": {
+    "prefix": "ngb-radio-group",
+    "body": [
+      "<div [(ngModel)]=\"${1:model}\" ngbRadioGroup name=\"${2:radioGroupName}\">",
+      "\t<label class=\"btn btn-${3:default|primary|success|info|warning|danger}\">",
+      "\t\t<input type=\"radio\" [value]=\"${4:1}\"> ${5:First}",
+      "\t</label>",
+      "\t<label class=\"btn btn-${6:default|primary|success|info|warning|danger}\">",
+      "\t\t<input type=\"radio\" [value]=\"${7:2}\"> ${8:Second}",
+      "\t</label>",
+      "</div>$9"
+    ],
+    "description": "NgBootstrap Radio buttons group"
+  },
+  "NgBootstrap Radio button": {
+    "prefix": "ngb-radio-btn",
+    "body": [
+      "<label class=\"btn btn-${1:default|primary|success|info|warning|danger}\">",
+      "\t<input type=\"radio\" [value]=\"${2:1}\"> ${3:Label}",
+      "</label>$4"
+    ],
+    "description": "NgBootstrap Radio button"
+  },
+  "NgBootstrap Carousel": {
+    "prefix": "ngb-carousel",
+    "body": [
+      "<ngb-carousel>",
+        "\t<template ngbSlide>",
+          "\t\t<img src=\"${1:http://lorempixel.com/900/500?r=4}\" alt=\"${2:Random first slide}\">",
+          "\t\t<div class=\"carousel-caption\">",
+            "\t\t\t<h3>${3:10 seconds between slides...}</h3>",
+            "\t\t\t<p>${4:This carousel uses customized default values.}</p>",
+          "\t\t</div>",
+        "\t</template>",
+        "\t<template ngbSlide>",
+          "\t\t<img src=\"${5:http://lorempixel.com/900/500?r=5}\"  alt=\"${6:Random second slide}\">",
+          "\t\t<div class=\"carousel-caption\">",
+            "\t\t\t<h3>${7:No keyboard...}</h3>",
+            "\t\t\t<p>${8:This carousel uses customized default values.}</p>",
+          "\t\t</div>",
+        "\t</template>",
+        "\t<template ngbSlide>",
+          "\t\t<img src=\"${9:http://lorempixel.com/900/500?r=6}\" alt=\"${10:Random third slide}\">",
+          "\t\t<div class=\"carousel-caption\">",
+            "\t\t\t<h3>${11:And no wrap after last slide.}</h3>",
+            "\t\t\t<p>${12:This carousel uses customized default values.}</p>",
+          "\t\t</div>",
+        "\t</template>",
+      "</ngb-carousel>"
+    ],
+    "description": "NgBootstrap Carousel"
+  },
+  "NgBootstrap Checkbox buttons group": {
+    "prefix": "ngb-checkbox-group",
+    "body": [
+      "<div class=\"btn-group\" data-toggle=\"buttons\">",
+      "\t<label class=\"btn btn-${1:default|primary|success|info|warning|danger}\" [class.active]=\"${2:first}\">",
+      "\t\t<input type=\"checkbox\" [(ngModel)]=\"${2:first}\">${3:First}",
+      "\t</label>",
+      "\t<label class=\"btn btn-${4:default|primary|success|info|warning|danger}\" [class.active]=\"${5:second}\">",
+      "\t\t<input type=\"checkbox\" [(ngModel)]=\"${5:second}\">${6:Second}",
+      "\t</label>",
+      "</div>$7"
+    ],
+    "description": "NgBootstrap Checkbox buttons group"
+  },
+  "NgBootstrap Checkbox button": {
+    "prefix": "ngb-checkbox-btn",
+    "body": [
+      "<label class=\"btn btn-${1:default|primary|success|info|warning|danger}\" [class.active]=\"${2:model}\">",
+      "\t<input type=\"checkbox\" [(ngModel)]=\"${2:model}\">${3:Label}",
+      "</label>$4"
+      ],
+    "description": "NgBootstrap Radio buttons"
+  },
+  "NgBootstrap Collapse": {
+    "prefix": "ngb-collapse",
+    "body": [
+      "<button type=\"button\" class=\"btn btn-${1:default|primary|success|info|warning|danger}\" (click)=\"isCollapsed = !isCollapsed\">${2:Toggle}</button>",
+      "<div [ngbCollapse]=\"isCollapsed\">",
+      "\t${3:Content}",
+      "</div>$4"
+    ],
+    "description": "NgBootstrap Collapse"
+  },
+  "NgBootstrap Datepicker": {
+    "prefix": "ngb-datepicker",
+    "body": [
+      "<ngb-datepicker #${1:dp} [(ngModel)]=\"${2:model}\" (navigate)=\"date=\\$event.next\"></ngb-datepicker>$3"
+    ],
+    "description": "NgBootstrap Datepicker"
+  },
+  "NgBootstrap Datepicker Popup": {
+    "prefix": "ngb-datepicker-popup",
+    "body": [
+      "<div class=\"input-group\">",
+      "\t<input class=\"form-control\" placeholder=\"${1:yyyy-mm-dd}\" name=\"${2:dp}\" [(ngModel)]=\"${3:model}\" ngbDatepicker #${4:d}=\"ngbDatepicker\">",
+      "\t<div class=\"input-group-addon\" (click)=\"${4:d}.toggle()\">",
+      "\t\t<img src=\"img/calendar-icon.svg\" style=\"width: 1.2rem; height: 1rem; cursor: pointer;\"/>",
+      "\t</div>",
+      "</div>$5"
+    ],
+    "description": "NgBootstrap Datepicker Popup"
+  },
+  "NgBootstrap Dropdown": {
+    "prefix": "ngb-dropdown",
+    "body": [
+      "<div ngbDropdown class=\"d-inline-block\">",
+      "\t<button class=\"btn btn-${1:default|primary|success|info|warning|danger}\" id=\"${2:dropdownMenu1}\" ngbDropdownToggle>${3:Toggle dropdown}</button>",
+      "\t<div class=\"dropdown-menu\" aria-labelledby=\"${2:dropdownMenu1}\">",
+      "\t\t<button class=\"dropdown-item\">${4:Action - 1}</button>",
+      "\t\t<button class=\"dropdown-item\">${5:Action - 2}</button>",
+      "\t</div>",
+      "</div>$6"
+    ],
+    "description": "NgBootstrap Dropdown"
+  },
+  "NgBootstrap Modal": {
+    "prefix": "ngb-modal",
+    "body": [
+      "<template #content let-c=\"close\" let-d=\"dismiss\">",
+      "\t<div class=\"modal-header\">",
+      "\t\t<button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"d('Cross click')\">",
+      "\t\t\t<span aria-hidden=\"true\">&times;</span>",
+      "\t\t</button>",
+      "\t\t<h4 class=\"modal-title\">${1:Modal title}</h4>",
+      "\t</div>",
+      "\t<div class=\"modal-body\">\n\t\t${2:<p>Modal body&hellip;</p>}",
+      "\t</div>",
+      "\t<div class=\"modal-footer\">",
+      "\t\t<button type=\"button\" class=\"btn btn-secondary\" (click)=\"c('Close click')\">Close</button>",
+      "\t</div>\n</template>\n<button class=\"btn btn-lg btn-outline-primary\" (click)=\"open(content)\">${3:Launch demo modal}</button>$4"
+    ],
+    "description": "NgBootstrap Modal"
+  },
+  "NgBootstrap Pagination": {
+    "prefix": "ngb-pagination",
+    "body": [
+      "<ngb-pagination [collectionSize]=\"${1:size}\" [(page)]=\"${2:page}\" [boundaryLinks]=\"${3:true}\" [directionLinks]=\"${4:true}\"></ngb-pagination>$5"
+    ],
+    "description": "NgBootstrap Pagination"
+  },
+  "NgBootstrap Popover": {
+    "prefix": "ngb-popover",
+    "body": [
+      "placement=\"${1:top|bottom|left|right}\" ngbPopover=\"${2:Popover content}\" popoverTitle=\"${3:Popover title}\"$4"
+    ],
+    "description": "NgBootstrap Popover"
+  },
+  "NgBootstrap Progress bar": {
+    "prefix": "ngb-progressbar",
+    "body": [
+      "<ngb-progressbar type=\"${1:success|info|warning|danger}\" [value]=\"${2:25}\" [max]=\"${3:50}\" [striped]=\"${4:true}\" [animated]=\"${5:true}\">${6:Label}</ngb-progressbar>$7"
+    ],
+    "description": "NgBootstrap Progress bar"    
+  },
+  "NgBootstrap Rating": {
+    "prefix": "ngb-rating",
+    "body": [
+      "<ngb-rating [(rate)]=\"${1:rate}\"></ngb-rating>$2"
+    ],
+    "description": "NgBootstrap Rating"    
+  },
+  "NgBootstrap Rating (ReadOnly)": {
+    "prefix": "ngb-rating-readonly",
+    "body": [
+      "<ngb-rating [(rate)]=\"${1:rate}\" [readonly]=\"${2:true}\"></ngb-rating>$3"
+    ],
+    "description": "NgBootstrap Rating"    
+  },
+  "NgBootstrap Tabset": {
+    "prefix": "ngb-tabset",
+    "body": [
+      "<ngb-tabset type=\"${1:tabs|pills}\">",
+      "\t<ngb-tab title=\"${2:Title1}\">",
+      "\t\t<template ngbTabContent>",
+      "\t\t\t${3:<p>Content 1</p>}",
+      "\t\t</template>",
+      "\t</ngb-tab>",
+      "\t<ngb-tab title=\"${4:Title2}\">",
+      "\t\t<template ngbTabContent>",
+      "\t\t\t${5:<p>Content 2</p>}",
+      "\t\t</template>",
+      "\t</ngb-tab>",
+      "</ngb-tabset>$6"
+    ],
+    "description": "NgBootstrap Tabset"    
+  },
+  "NgBootstrap Tabset Justify": {
+    "prefix": "ngb-tabset-justify",
+    "body": [
+      "<ngb-tabset type=\"${1:tabs|pills}\" justify=\"${2:start|center|end}\">",
+      "\t<ngb-tab title=\"${3:Title1}\">",
+      "\t\t<template ngbTabContent>",
+      "\t\t\t${4:<p>Content 1</p>}",
+      "\t\t</template>",
+      "\t</ngb-tab>",
+      "\t<ngb-tab title=\"${5:Title2}\">",
+      "\t\t<template ngbTabContent>",
+      "\t\t\t${6:<p>Content 2</p>}",
+      "\t\t</template>",
+      "\t</ngb-tab>",
+      "</ngb-tabset>$7"
+    ],
+    "description": "NgBootstrap Tabset Justify"    
+  },
+  "NgBootstrap Tab": {
+    "prefix": "ngb-tab",
+    "body": [
+      "<ngb-tab title=\"${1:Title}\">",
+      "\t<template ngbTabContent>",
+      "\t\t${2:<p>Content</p>}",
+      "\t</template>",
+      "</ngb-tab>$3"
+      ],
+    "description": "NgBootstrap Tab"    
+  },
+  "NgBootstrap Tab (Custom title)": {
+    "prefix": "ngb-tab",
+    "body": [
+      "<ngb-tab>",
+      "\t<template ngbTabTitle>",
+      "\t\t${1:<i>Title</i>}",
+      "\t</template>",
+      "\t<template ngbTabContent>",
+      "\t\t${2:<p>Content</p>}",
+      "\t</template>",
+      "</ngb-tab>$3"
+    ],
+    "description": "NgBootstrap Tab (Custom title)"    
+  },
+  "NgBootstrap Timepicker": {
+    "prefix": "ngb-timepicker",
+    "body": [
+      "<ngb-timepicker [(ngModel)]=\"${1:time}\" [seconds]=\"${2:true|false}\"></ngb-timepicker>$3"
+    ],
+    "description": "NgBootstrap Timepicker"    
+  },
+  "NgBootstrap Timepicker Meridian": {
+    "prefix": "ngb-timepicker-meridian",
+    "body": [
+      "<ngb-timepicker [(ngModel)]=\"${1:time}\" [seconds]=\"${2:true|false}\" [meridian]=\"${3:true|false}\"></ngb-timepicker>$4"
+    ],
+    "description": "NgBootstrap Timepicker Meridian"    
+  },
+  "NgBootstrap Timepicker Steps": {
+    "prefix": "ngb-timepicker-steps",
+    "body": [
+      "<ngb-timepicker [(ngModel)]=\"${1:time}\" [seconds]=\"${2:true|false}\" [meridian]=\"${3:true|false}\" [hourStep]=\"${4:1}\" [minuteStep]=\"${5:5}\" [secondStep]=\"${6:30}\"></ngb-timepicker>$7"
+    ],
+    "description": "NgBootstrap Timepicker Meridian"    
+  },
+  "NgBootstrap Tooltip": {
+    "prefix": "ngb-tooltip",
+    "body": [
+      "placement=\"${1:top|bottom|left|right}\" ngbTooltip=\"${2:Tooltip content}\"$4"
+    ],
+    "description": "NgBootstrap Tooltip"
+  },
+  "NgBootstrap Typeahead": {
+    "prefix": "ngb-tooltip",
+    "body": [
+      "<input type=\"text\" class=\"form-control\" [(ngModel)]=\"${1:model}\" [ngbTypeahead]=\"${2:search}\" />$4"
+    ],
+    "description": "NgBootstrap Typeahead"
+  }
+}
