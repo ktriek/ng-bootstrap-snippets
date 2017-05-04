@@ -10,95 +10,34 @@ Type ngb to see the list of the available snippets, select a snippet then press 
 
 ## Available Snippets
 
-### Accordion
-
 Description | Trigger
 --- | ---
 Accordion | ngb-accordion
-
-### Alert
-
-Description | Trigger
---- | ---
 Alert | ngb-alert
-
-### Buttons
-
-Description | Trigger
---- | ---
 Button | ngb-btn
 Button Outline | ngb-btn-outline
-Radio buttons group | ngb-radio-group
-Radio button | ngb-radio-btn
+Carousel | ngb-carousel
 Checkbox buttons group | ngb-checkbox-group
 Checkbox button | ngb-checkbox-btn
-
-### Collapse
-
-Description | Trigger
---- | ---
 Collapse | ngb-collapse
-
-### Datepicker
-
-Description | Trigger
---- | ---
 Datepicker | ngb-datepicker
 Datepicker Popup | ngb-datepicker-popup
-
-### Dropdown
-
-Description | Trigger
---- | ---
 Dropdown | ngb-dropdown
-
-### Pagination
-
-Description | Trigger
---- | ---
 Pagination | ngb-pagination
-
-### Popups
-
-Description | Trigger
---- | ---
 Modal | ngb-modal
-Tooltip | ngb-tooltip
 Popover | ngb-popover
-
-### Progress bar
-
-Description | Trigger
---- | ---
 Progress bar | ngb-progressbar
-
-### Rating
-
-Description | Trigger
---- | ---
+Radio buttons group | ngb-radio-group
+Radio button | ngb-radio-btn
 Rating | ngb-rating
 Rating (ReadOnly) | ngb-rating-readonly
-
-### Tabs
-
-Description | Trigger
---- | ---
-Tabset | ngb-tabset
 Tab | ngb-tab
 Tab (Custom title) | ngb-tab
-
-### Timepicker
-
-Description | Trigger
---- | ---
+Tabset | ngb-tabset
 Timepicker | ngb-timepicker
 Timepicker Meridian |ngb-timepicker-meridian
 Timepicker Steps | ngb-timepicker-steps
-
-### Typeahead
-
-Description | Trigger
---- | ---
+Tooltip | ngb-tooltip
 Typeahead | ngb-tooltip
 
 

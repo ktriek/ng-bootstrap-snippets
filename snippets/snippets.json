@@ -26,14 +26,14 @@
   "NgBootstrap Button": {
     "prefix": "ngb-btn",
     "body": [
-      "<button type=\"button\" class=\"btn btn-${1:default|primary|success|info|warning|danger}\" (click)=\"${2:onClick}(${3:\\$event})\">\n\t${4:Button}\n</button>$5"
+      "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|info|warning|danger}\" (click)=\"${2:onClick}(${3:\\$event})\">\n\t${4:Button}\n</button>$5"
     ],
     "description": "NgBootstrap Button"
   },
   "NgBootstrap Button Outline": {
     "prefix": "ngb-btn-outline",
     "body": [
-      "<button type=\"button\" class=\"btn btn-outline-${1:default|primary|success|info|warning|danger}\" (click)=\"${2:onClick}(${3:\\$event})\">\n\t${4:Button}\n</button>$5"
+      "<button type=\"button\" class=\"btn btn-outline-${1:primary|secondary|success|info|warning|danger}\" (click)=\"${2:onClick}(${3:\\$event})\">\n\t${4:Button}\n</button>$5"
     ],
     "description": "NgBootstrap Button Outline"
   },
@@ -41,10 +41,10 @@
     "prefix": "ngb-radio-group",
     "body": [
       "<div [(ngModel)]=\"${1:model}\" ngbRadioGroup name=\"${2:radioGroupName}\">",
-      "\t<label class=\"btn btn-${3:default|primary|success|info|warning|danger}\">",
+      "\t<label class=\"btn btn-${3:primary|secondary|success|info|warning|danger}\">",
       "\t\t<input type=\"radio\" [value]=\"${4:1}\"> ${5:First}",
       "\t</label>",
-      "\t<label class=\"btn btn-${6:default|primary|success|info|warning|danger}\">",
+      "\t<label class=\"btn btn-${6:primary|secondary|success|info|warning|danger}\">",
       "\t\t<input type=\"radio\" [value]=\"${7:2}\"> ${8:Second}",
       "\t</label>",
       "</div>$9"
@@ -54,7 +54,7 @@
   "NgBootstrap Radio button": {
     "prefix": "ngb-radio-btn",
     "body": [
-      "<label class=\"btn btn-${1:default|primary|success|info|warning|danger}\">",
+      "<label class=\"btn btn-${1:primary|secondary|success|info|warning|danger}\">",
       "\t<input type=\"radio\" [value]=\"${2:1}\"> ${3:Label}",
       "</label>$4"
     ],
@@ -93,10 +93,10 @@
     "prefix": "ngb-checkbox-group",
     "body": [
       "<div class=\"btn-group\" data-toggle=\"buttons\">",
-      "\t<label class=\"btn btn-${1:default|primary|success|info|warning|danger}\" [class.active]=\"${2:first}\">",
+      "\t<label class=\"btn btn-${1:primary|secondary|success|info|warning|danger}\" [class.active]=\"${2:first}\">",
       "\t\t<input type=\"checkbox\" [(ngModel)]=\"${2:first}\">${3:First}",
       "\t</label>",
-      "\t<label class=\"btn btn-${4:default|primary|success|info|warning|danger}\" [class.active]=\"${5:second}\">",
+      "\t<label class=\"btn btn-${4:primary|secondary|success|info|warning|danger}\" [class.active]=\"${5:second}\">",
       "\t\t<input type=\"checkbox\" [(ngModel)]=\"${5:second}\">${6:Second}",
       "\t</label>",
       "</div>$7"
@@ -106,7 +106,7 @@
   "NgBootstrap Checkbox button": {
     "prefix": "ngb-checkbox-btn",
     "body": [
-      "<label class=\"btn btn-${1:default|primary|success|info|warning|danger}\" [class.active]=\"${2:model}\">",
+      "<label class=\"btn btn-${1:primary|secondary|success|info|warning|danger}\" [class.active]=\"${2:model}\">",
       "\t<input type=\"checkbox\" [(ngModel)]=\"${2:model}\">${3:Label}",
       "</label>$4"
       ],
@@ -115,7 +115,7 @@
   "NgBootstrap Collapse": {
     "prefix": "ngb-collapse",
     "body": [
-      "<button type=\"button\" class=\"btn btn-${1:default|primary|success|info|warning|danger}\" (click)=\"isCollapsed = !isCollapsed\" ",
+      "<button type=\"button\" class=\"btn btn-${1:primary|secondary|success|info|warning|danger}\" (click)=\"isCollapsed = !isCollapsed\" ",
       "\t\t[attr.aria-expanded]=\"!isCollapsed\" aria-controls=\"${2:collapseExample}\">${3:Toggle}</button>",
       "<div id=\"${2:collapseExample}\" [ngbCollapse]=\"isCollapsed\">",
       "\t${4:Content}",
@@ -146,7 +146,7 @@
     "prefix": "ngb-dropdown",
     "body": [
       "<div ngbDropdown class=\"d-inline-block\">",
-      "\t<button class=\"btn btn-${1:default|primary|success|info|warning|danger}\" id=\"${2:dropdownMenu1}\" ngbDropdownToggle>${3:Toggle dropdown}</button>",
+      "\t<button class=\"btn btn-${1:primary|secondary|success|info|warning|danger}\" id=\"${2:dropdownMenu1}\" ngbDropdownToggle>${3:Toggle dropdown}</button>",
       "\t<div class=\"dropdown-menu\" aria-labelledby=\"${2:dropdownMenu1}\">",
       "\t\t<button class=\"dropdown-item\">${4:Action - 1}</button>",
       "\t\t<button class=\"dropdown-item\">${5:Action - 2}</button>",
