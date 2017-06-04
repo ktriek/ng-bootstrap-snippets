@@ -10,35 +10,37 @@ Type ngb to see the list of the available snippets, select a snippet then press 
 
 ## Available Snippets
 
-Description | Trigger
+ Trigger | Description
 --- | ---
-Accordion | ngb-accordion
-Alert | ngb-alert
-Button | ngb-btn
-Button Outline | ngb-btn-outline
-Carousel | ngb-carousel
-Checkbox buttons group | ngb-checkbox-group
-Checkbox button | ngb-checkbox-btn
-Collapse | ngb-collapse
-Datepicker | ngb-datepicker
-Datepicker Popup | ngb-datepicker-popup
-Dropdown | ngb-dropdown
-Pagination | ngb-pagination
-Modal | ngb-modal
-Popover | ngb-popover
-Progress bar | ngb-progressbar
-Radio buttons group | ngb-radio-group
-Radio button | ngb-radio-btn
-Rating | ngb-rating
-Rating (ReadOnly) | ngb-rating-readonly
-Tab | ngb-tab
-Tab (Custom title) | ngb-tab
-Tabset | ngb-tabset
-Timepicker | ngb-timepicker
-Timepicker Meridian |ngb-timepicker-meridian
-Timepicker Steps | ngb-timepicker-steps
-Tooltip | ngb-tooltip
-Typeahead | ngb-tooltip
+ngb-accordion | Accordion 
+ngb-alert | Alert 
+ngb-btn | Button 
+ngb-btn-outline | Button Outline
+ngb-carousel | Carousel 
+ngb-checkbox-btn | Checkbox button 
+ngb-checkbox-group | Checkbox buttons group 
+ngb-collapse | Collapse 
+ngb-datepicker | Datepicker
+ngb-datepicker-popup | Datepicker Popup 
+ngb-dropdown | Dropdown 
+ngb-pagination | Pagination 
+ngb-modal | Modal
+ngb-popover-placement | Popover With Placement
+ngb-progressbar | Progress bar
+ngb-radio-btn | Radio button 
+ngb-radio-group | Radio buttons group
+ngb-rating | Rating
+ngb-rating-readonly | Rating (ReadOnly) 
+ngb-tab | Tab 
+ngb-tab-custom-title | Tab (Custom title) 
+ngb-tabset | Tabset 
+ngb-tabset-justify | Tabset Justify
+ngb-timepicker | Timepicker 
+ngb-timepicker-meridian | Timepicker Meridian 
+ngb-timepicker-steps | Timepicker Steps 
+ngb-tooltip | Tooltip 
+ngb-tooltip-placement | Tooltip With Placement
+ngb-typeahead | Typeahead 
 
 
 ---

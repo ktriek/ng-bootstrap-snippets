@@ -183,6 +183,13 @@
   "NgBootstrap Popover": {
     "prefix": "ngb-popover",
     "body": [
+      "ngbPopover=\"${1:Popover content}\" popoverTitle=\"${2:Popover title}\"$3"
+    ],
+    "description": "NgBootstrap Popover"
+  },
+  "NgBootstrap Popover With Placement": {
+    "prefix": "ngb-popover-placement",
+    "body": [
       "placement=\"${1:top|bottom|left|right}\" ngbPopover=\"${2:Popover content}\" popoverTitle=\"${3:Popover title}\"$4"
     ],
     "description": "NgBootstrap Popover"
@@ -256,7 +263,7 @@
     "description": "NgBootstrap Tab"    
   },
   "NgBootstrap Tab (Custom title)": {
-    "prefix": "ngb-tab",
+    "prefix": "ngb-tab-custom-title",
     "body": [
       "<ngb-tab>",
       "\t<ng-template ngbTabTitle>",
@@ -293,7 +300,14 @@
   "NgBootstrap Tooltip": {
     "prefix": "ngb-tooltip",
     "body": [
-      "placement=\"${1:top|bottom|left|right}\" ngbTooltip=\"${2:Tooltip content}\"$4"
+      "ngbTooltip=\"${1:Tooltip content}\"$2"
+    ],
+    "description": "NgBootstrap Tooltip"
+  },
+  "NgBootstrap Tooltip With Placement": {
+    "prefix": "ngb-tooltip-placement",
+    "body": [
+      "placement=\"${1:top|bottom|left|right}\" ngbTooltip=\"${2:Tooltip content}\"$3"
     ],
     "description": "NgBootstrap Tooltip"
   },
