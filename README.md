@@ -1,6 +1,6 @@
 # NgBootstrap Snippets
 
-A set of NgBootstrap ([Angular](https://angular.io/) + [Bootstrap 4](http://getbootstrap.com/)) Snippets for Visual Studio Code.
+A set of [NgBootstrap](https://ng-bootstrap.github.io) ([Angular](https://angular.io/) + [Bootstrap 4](http://getbootstrap.com/)) Snippets for Visual Studio Code.
 
 ![Demo](images/demo.gif)
 
@@ -17,7 +17,10 @@ ngb-alert | Alert
 ngb-btn | Button 
 ngb-btn-outline | Button Outline
 ngb-carousel | Carousel 
-ngb-checkbox-btn | Checkbox button 
+ngb-checkbox | Checkbox (Default)
+ngb-checkbox-btn | Checkbox - Button
+ngb-checkbox-custom | Checkbox - Custom style
+ngb-checkbox-inline | Checkbox  - Default Inline 
 ngb-checkbox-group | Checkbox buttons group 
 ngb-collapse | Collapse 
 ngb-datepicker | Datepicker
@@ -27,7 +30,10 @@ ngb-pagination | Pagination
 ngb-modal | Modal
 ngb-popover-placement | Popover With Placement
 ngb-progressbar | Progress bar
-ngb-radio-btn | Radio button 
+ngb-radio | Radio button (Default)
+ngb-radio-btn | Radio button - Button
+ngb-radio-Cusom | Radio button - Custom style
+ngb-radio-inline | Radio button - Default Inline
 ngb-radio-group | Radio buttons group
 ngb-rating | Rating
 ngb-rating-readonly | Rating (ReadOnly) 
